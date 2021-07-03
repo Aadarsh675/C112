@@ -1,0 +1,60 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(to right top, #ff0091, #f000a8, #db1bc0, #bc32d6, #9245ea, #6b67f9, #3f7fff, #0092ff, #00b2ff, #00cfff, #00e8ff, #00ffef);
+}
+#header img {
+    width: 75px;
+    border-radius: 50px;
+}
+#header {
+    background-color: #a057ff;
+    color: white;
+}
+.maindiv {
+    background-color: turquoise;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid white;
+}
+.maindiv label {
+    box-shadow: 5px 5px 10px white;
+    width: 300px;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 20px;
+}
+#camera, #snapshot {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    margin: 10px;
+    box-shadow: 5px 5px 10px white;
+}
+.maindiv button {
+    box-shadow: 5px 5px 10px white;
+    width: 300px;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 20px;
+}
+.outputdiv img {
+    width: 70px;
+}
+.outputdiv {
+    background-color: white;
+    text-align: left;
+    margin: 20px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px white;
+}
+#developer {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+    color: navy;
+    font-weight: bolder;
+}
